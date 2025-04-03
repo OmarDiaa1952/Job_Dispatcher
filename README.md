@@ -97,24 +97,3 @@ To build the project, you'll need a C++ compiler (e.g., g++) and a Windows envir
 5.  **Terminate the dispatcher:**
 
     - Press Ctrl+Z and Enter in the dispatcher console to gracefully shut down the system.
-
-## Project Structure
-
-job_dispatcher/
-├── bin/ # Executables (dispatcher.exe, worker.exe)
-├── include/ # Header files
-│ ├── config.h
-│ ├── dispatcher.h
-│ ├── job.h
-│ ├── utils.h
-│ └── worker.h
-├── src/ # Source files
-│ ├── config.cpp
-│ ├── dispatcher.cpp
-│ ├── job.cpp
-│ ├── utils.cpp
-│ └── worker.cpp
-├── main.cpp # Main dispatcher program
-├── worker_main.cpp # worker entry point.
-└── Makefile # Build instructions
-└── README.md # Project documentation
